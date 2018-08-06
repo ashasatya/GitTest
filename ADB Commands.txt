@@ -1,0 +1,10 @@
+ADB commands
+
+adb devices
+adb start-server
+add kill-server
+adb logcat
+adb logcat -d >file path
+adb logcat -c
+adb pull <device file location> <local file location>
+adb push <local file location> <device file location>
